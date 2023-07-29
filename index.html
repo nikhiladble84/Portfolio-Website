@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Nikhil - Portfolio website</title>
+        <meta charset="utf-8">
+        <link href="./style.css" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+       
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="left">Nikhil's Portfolio</div>
+                <div class="right">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">About</a></li>
+                        <li><a href="/">Services</a></li>
+                        <li><a href="/">Projects</a></li>
+                        <li><a href="/">Contact Me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="firstSection">
+                <div class="leftSection">
+                   Hi, My name is <span class="purple">Nikhil</span>
+                   <div>and I am a passionate</div>
+                   <span id="element"></span>
+                   <div class="buttons">
+                    <button class="btn"> Download Resume</button>
+                    <button class="btn"> Visit Github</button>
+                   </div>
+                </div>
+                <div class="rightSection">
+                    <img src="./img/11289800.png" alt="">
+                </div>
+            </section>
+<hr>
+            <section class="secondSection">
+                <span class="text-gray">What I have done so far</span>
+                <h1>Work Experience</h1>
+
+                <div class="box">
+                    <div class="vertical">
+                        <img class="image-top" src="./img/Edureka_company_logo.png" alt="" >
+                        <div class="vertical-title">
+                            Full Stack Web Development Internship 
+                            <p style="font-size: 10px;">(Jan 2023 - May 2023)</p>
+                        </div>
+                        <div class="vertical-desc">
+                            <li>
+                            • Built a dynamic e-commerce website using MERN stack
+                            • Designed and implemented the front-end using React
+                            • Developed RESTful APIs with Express.js and MongoDB
+                              for handling product and user data
+                            • Integrated payment gateways for secure online
+                              transactions
+                            • Implemented search and filtering functionalities for
+                            improved user experience 
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+<hr>                   
+        </main>
+
+
+    
+  </script>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Web Developer', '&amp; Software Developer'],
+              typeSpeed: 50,
+            });
+          </script>
+    </body>
+</html>
